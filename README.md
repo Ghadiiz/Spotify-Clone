@@ -1,16 +1,84 @@
-# React + Vite
+# 🎵 Spotify Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Spotify clone built as a learning project to demonstrate front-end development skills with modern web technologies.
 
-Currently, two official plugins are available:
+![Status](https://img.shields.io/badge/status-work%20in%20progress-yellow)
+![Development](https://img.shields.io/badge/development-ongoing-brightgreen)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚧 Project Status
 
-## React Compiler
+**Note:** This is a work-in-progress project created for learning and portfolio purposes. Not all features are functional yet.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 About
 
-## Expanding the ESLint configuration
+This project is a Spotify clone that replicates the basic UI and core music playback functionality of Spotify. It was built to practice React development, component architecture, and state management. All music content and album data are currently loaded from static local assets.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+### ✅ Currently Working
+- **Home Page Navigation** - Functional home button
+- **Music Playback** - Play, pause, and skip songs
+- **Album Navigation** - Click on albums to browse their content
+- **Song Selection** - Click any displayed song to play it
+- **Player Controls** - Full playback control with previous/next buttons
+- **Seekbar** - Functional progress bar with click-to-seek capability
+- **Time Display** - Shows current playback time and total song duration
+
+### ⏳ Not Yet Implemented
+- Search functionality
+- Sidebar navigation features (Library, Playlists, etc.)
+- User authentication and accounts
+- "Explore Premium" feature
+- "Install App" button functionality
+- Dynamic content loading from API
+- Playlist creation and management
+
+## 🛠️ Built With
+
+- **React JS** - JavaScript library for building user interfaces
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **React Router** - For navigation between pages
+- **Local Assets** - Static audio files and album artwork
+
+## 💡 What I Learned
+
+- Building reusable React components
+- Managing state across multiple components
+- Implementing audio playback in React
+- Styling with Tailwind CSS utility classes
+- Working with React Router for navigation
+- Handling time-based data for music playback
+
+## 🎯 Purpose
+
+This project serves multiple purposes:
+- **Learning Exercise** - Practice building complex React applications
+- **Portfolio Piece** - Demonstrate front-end development skills 
+- **UI/UX Practice** - Recreate a professional, well-designed interface
+- **State Management** - Work with component state and props effectively
+
+## 🔮 Future Enhancements
+
+Features I may add in future iterations:
+- Implement working search functionality with filtering
+- Connect to Spotify Web API for real data
+- Add user authentication with login/signup
+- Enable playlist creation and management
+- Make the sidebar fully functional
+- Add responsive design for mobile devices
+- Implement volume control
+- Add shuffle and repeat functionality
+- Create "Liked Songs" feature
+
+## 📝 Notes
+
+- This project is for **educational purposes only**
+- Not affiliated with or endorsed by Spotify
+- All content is loaded from local static assets
+- Some UI elements are non-functional placeholders
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
+---
